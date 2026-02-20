@@ -11,7 +11,7 @@ If your browser blocks audio URLs due to CORS, use local files (temporary) or ru
 - PowerShell (Python installed):
 
 ```powershell
-cd "c:\Users\ANKIT\OneDrive\Desktop\SongProject1"
+cd "c:\Users\Desktop\SongProject1"
 python -m http.server 5173
 ```
 
@@ -29,4 +29,5 @@ Then open `http://localhost:5173`.
 
 - **Audio URLs** persist across sessions.
 - **Local files** are supported via `blob:` URLs and are **temporary** (they won’t survive a refresh).
+
 
